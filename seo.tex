@@ -1,0 +1,180 @@
+\documentclass[ngerman, 12pt, a4paper]{scrartcl}
+\usepackage[ngerman]{babel}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xspace}
+\usepackage{times}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+\usepackage[style=numeric, backend=bibtex]{biblatex}
+\usepackage[babel,german=guillemets]{csquotes}
+\bibliography{seo.bib}
+
+\title{Wie komme ich bei Google\newline auf Seite eins?}
+\subtitle{Eine Anleitung zur Suchmaschinenoptimierung}
+\author{Thomas Rega}
+\date{\today}
+\parindent 0pt
+
+\usepackage{hyperref}
+
+\hypersetup{
+    pdfstartview={FitH},
+    pdftitle={Wie komme ich bei Google auf Seite eins? Eine Anleitung zur Suchmaschinenoptimierung},
+    pdfauthor={Thomas Rega},
+    pdfsubject={Wie komme ich bei Google auf Seite eins? Eine Anleitung zur Suchmaschinenoptimierung},
+    pdfcreator={Thomas Rega},
+    pdfproducer={Thomas Rega},
+    pdfkeywords={bei google auf seite eins kommen} {google optimierung} {seo},
+    pdfnewwindow=true,
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    filecolor=black,
+    urlcolor=black
+}
+
+
+\begin{document}
+\maketitle
+
+\newpage
+
+Der Algorithmus, welcher von Google zur Auflistung von Suchergebnissen benutzt wird ist mindestens
+so komplex wie ``Sagen umwoben'' - vor allem ist er jedoch eines: geheim.
+\newline
+
+Dies ist der Grund, warum die Aussagen bezüglich des Rankings bei Google nur als Mutmaßungen und
+Spekulationen eingestuft werden können. Die folgenden Informationen beruhen auf eigenen Erfahrungen.
+Es besteht kein Anspruch auf Vollständigkeit und Exaktheit.
+\newline
+
+Google selbst bietet Hilfe zur Suchmaschinenoptimierung unter \cite{seo} an.
+
+\newpage
+
+\section*{Inhalt}
+
+Suchmaschinen brauchen Futter. Suchmaschine brauchen Inhalt, den sie indizieren, auf den sie
+verweisen können. Stelle ihnen diesen Inhalt zur Verfügung. Zusätzlich lassen sich auswertbare
+Informationen in sog. Meta Angaben (``Meta Tags'') unterbringen. Die Indizierungsprogramme
+(sog. ``Robots'' oder ``Crawler'') der Suchmaschinen registrieren die Meta Tags einer Seite und nutzen
+diese zur Indizierung. Weitere Informationen zu Meta Tags unter: \cite{meta_tags} und
+\cite{meta_tags_selfhtml}
+
+\paragraph{Quellen}
+Der Inhalt der Seite sollte ausschließlich von Dir selbst erstellt worden sein, damit
+sind ausdrücklich auch die Bilder gemeint. Falls es nötig sein sollte externe Quellen zu bemühen
+und/oder auf externe Quellen zu verweisen, so sind dies stets ersichtlich zu gestalten und ggf.
+vorhandene Copyrights und Nutzungsbedingungen zu beachten. Vermeide auf jeden Fall ``zu Guttenbergen''
+(copy-and-paste). Sollten solche Plagiate erkannt werden, so führt dies zu einer Herabstufung im Ranking.
+
+\paragraph{Description}
+Der `description' Meta Tag sollte in etwa 100 - 120 Zeichen lang sein und zum Anklicken einladen.
+Eine gute Kurz-Beschreibung animiert den Nutzer zum Besuch Deiner Webseite. Fasse den Inhalt/Absicht
+der Seite in zwei bis drei Sätzen zusammen.
+\newline Siehe auch: \cite{meta_tags}
+
+\paragraph{Keywords}
+Der `keyword' Meta Tag sollte die Schlüsselwörter beinhalten, unter welchen man bei der Eingabe in
+einer Suchmaschine gefunden werden möchte. Es nützt allerdings nichts, wenn der `keyword' Tag die
+einzige Stelle ist, an der diese Schlüsselwörter auftauchen. Benutze Webmaster Tools um zu kontrollieren,
+welche Keywords vom Robot der jeweilige Suchmaschine als solche bemerkt und erkannt werden.
+\newline Siehe auch: \cite{google_webmaster}, \cite{meta_tags}
+
+\paragraph{Sitemap}
+Google empfiehlt die Hinterlegung einer Sitemap der Seite. Die Sitemap unterstützt den Google Bot
+bei der Indizierung der Seite. Unter \cite{sitemap} werden Informationen zur Erstellung einer Sitemap
+zur Verfügung gestellt. Neben URLs können in einer Sitemap auch Informationen zur letzten Aktualisierung
+der Seite hinterlegt werden. Per Google Webmaster Tools hat der Webmaster der Seite die Möglichkeit
+auf eine Aktualisierung der Sitemap bzw. deren Erstellung hinzuweisen, in dem er die Sitemap dort
+``einreicht'' und so einen Crawling Vorgang anstößt.
+
+\paragraph{Aktualität}
+Aktuelle Informationen lassen sich mit Hilfe von Blog Einträgen in die Seite einfügen.
+Wenn die Seite "lebt", d.h. wenn dort kontinuierlich neue Artikel / Informationen hinterlegt werden,
+so wird sich das auf keinen Fall negativ auf das Ranking bei Google auswirken - im Gegenteil.
+
+\paragraph{Erfahrungsberichte}
+Authentische Bewertungen (auch "Testimonials" genannt) wirken sich ebenfalls günstig auf die
+Gesamtbewertung der Seite aus. Siehe auch:  \cite{testimonial}
+
+
+\section*{Back-Links}
+Es existiert das Gerücht, dass Google zehn Top Seiten (z.Bsp. "The New York Times") mit dem Rank 1
+versehen hat. Diese Seiten genießen das höchste Ansehen (Rank 1) und bilden eine Art Wurzel. Von
+diesen Seiten aus wird auf Inhalte auf anderen Webseiten gezeigt, diese Webseiten erhalten dann den
+Rank 2 (da eine Rank 1 Seite auf diese verweist) - wird von der Seite mit Rank 2 auf eine weitere
+Seite verlinkt, so erhält diese Rank 3 usw. - so landet man schließlich irgendwann bei
+Rank 3456122099, d.h. man ist sehr weit weg von der New York Times.
+
+Verlinkungen auf die eigene Seite (sog. ``Back Links'') sind wichtig, da Google davon aus zu gehen
+scheint, dass auf wertvolle Informationen auch von anderer Seite aus verwiesen wird. Bei den
+Verlinkungen, welche auf die eigene Seite zeigen, sollte man darauf achten, dass diese von
+``hochwertigen'' Seiten stammen. D.h. von Seiten, welche schon ``einiges'' an Prestige (Popularität)
+mitbringen. Verlinkungen von ``niederwertigen'' Seiten (Seiten, welche dafür bekannt sind einzig und
+allein als ``Linkfarm'' \cite{link_farm} zu gelten oder Seiten mit fragwürdigen Inhalten) wirken
+sich dagegen negativ auf das Ranking aus.
+
+\paragraph*{Social Networks}
+Beiträge auf sozialen Netzwerken wie Facebook, G+, Twitter, Instagram, Xing, LinkedIn, Pinterest usw.
+können dazu benutzt werden um Back Links zu erzeugen und die Popularität der eigenen Seite weiter
+zu steigern. Meinungsäußerungen, Produktvorstellungen und sonstige Informationen, welche sich über
+soziale Netzwerken verteilen, erscheinen zunehmend in den Suchergebnissen. Diese Entwicklung wird
+wohl in naher Zukunft auch nicht abschwächen. Auf G+ gibt es das Angebot von Communities, welche
+sich mit bestimmten Themen (Programmierung, Sport, Fitness, Wellness etc.) austauschen. Auf Xing,
+Facebook etc. gibt es das Konzept der Gruppen. Hier bietet sich eine hervorragende Möglichkeit sich,
+durch beispielsweise Beantwortung von Fragen oder das Verfassen von Fachartikeln, auf dem jeweiligen
+Gebiet als Experte zu etablieren und dabei regelmäßig Verlinkungen auf die eigene Seite zu verteilen.
+Die Verlinkungen sollten nicht ausschließlich auf die Landing Page zeigen, sondern durchaus direkt
+auf die Artikel, welche auf der eigenen Seiten hinterlegt wurden. So lässt auf der einen Seite ein
+Mehrwert für die Nutzer und Mitglieder der Communities und auf der anderen Seite Traffic für die
+eigene Seite generieren.
+
+
+\section*{Technik}
+\paragraph*{Web Standards}
+Der Web Standard ist zwar heute (07/2013) noch nicht in seiner finalen Form verabschiedet, es gibt
+jedoch keinen Grund noch immer am alten Standard HTML4 fest zu halten. Jeder aktuelle Browser
+unterstützt umfassend (d.h. noch nicht den kompletten Standard) HTML5 Elemente. Siehe auch: \cite{html5}
+
+Eine der Neuerungen, die HTML5 mit sich bringt, sind neue Elemente zur semantischen Strukturierung
+der Seite. Die Robots der Suchmaschinen werten die semantischen Struktur Elemente aus. Insgesamt
+scheint es, als ob die Benutzung moderner Web Standards von den Suchmaschinen honoriert wird. Weiter
+gehende Informationen auch zum Thema ``Semantisches Web'' unter: \cite{html5}, \cite{semantisches_web}.
+
+\paragraph*{Kurze Ladezeiten}
+Schnelle Auslieferungen von Inhalten und damit kurze Wartezeiten für den Nutzer werden honoriert.
+Mit den Chrome Entwickler Tools lassen sich die Ladezeiten der einzelnen Bestandteile der Webseite
+auf die Millisekunde genau nachvollziehen. Alles, was länger als eine Sekunde dauert, ist im Grunde nicht
+akzeptabel. Wer hier Inhalte sparen kann, spart automatisch Ladezeit. Bilder sollten komprimiert,
+Javascript und CSS Dateien zusammengefasst und verdichtet werden. Hierzu gibt es Tools - gute Web
+Entwicklung Frameworks kommen mit Mechanismen, welche diese Aufgaben automatisch erledigen.\newline
+
+Empfehlenswert ist der Einsatz von \texttt{mod\_pagespeed}. Dabei handelt es sich um ein Modul für
+den Apache Webserver, welches die Konsolidierung und Komprimierung von Inhalten übernimmt.
+\cite{pagespeed}\newline
+
+Lesenswert sind auch die Artikel zum Thema ``Kurze Ladezeiten'' unter \cite{speed}. Zusammenfassend
+lässt sich sagen, dass sich kurze Ladezeiten sowohl auf die User Experience als auch auf das Ranking
+bei Google positiv auswirken.
+
+\paragraph*{Sprechende URLs}
+Die Zeiten von kryptischen URLs wie ``?id=42\&view=false'' sind vorbei. Nutzer wie
+auch Suchmaschinen mögen ``sprechende URLs''. Solche URLs beschreiben schon in der URL an sich den
+Inhalt der Seite. Sie enthalten Menschen lesbare Wortgruppen anstatt technischer Kürzel. \cite{speaking_urls}
+
+\paragraph*{Analytics}
+Wo gibt es Ausstiegspunkte, bei deren Erreichen fast alle Nutzer die Seite verlassen? Was suchen
+die Nutzer auf meiner Seite? Woher kommen sie? Durch welchen Suchbegriff bei welcher Suchmaschine
+sind die Nutzer auf meine Seite aufmerksam geworden? Welche Unterseite wird besonders häufig
+aufgerufen? Wie viele der Nutzer waren schon auf der Seite und wie viele sind neu? Welche Browser
+werden benutzt? Solche Fragen lassen sich mittels Google Analytics sehr gut nachvollziehen. Das Ganze kann
+noch mit diversen Benutzer spezifischen Filtern und Abfragen versehen werden. Dieses Angebot von
+Google kostet kein Geld - man bezahlt mit seinen Daten. \cite{analytics}
+
+\newpage
+\printbibliography[title=Ressourcen]
+\end{document}
